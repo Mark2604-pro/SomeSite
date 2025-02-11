@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">  
+<html lang="ru">
 <head>
- <title>MyFirstWeb</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Крутой сайт</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1> Hello world </h1>
-<p> My name is Mark</p>
-<a href="https://www.tiktok.com/@markusik_tt">My TT</a>></a>
-<a href="./indexXz">MyPage</a>
+    <header>
+        <h1>Добро пожаловать на крутой сайт марка!</h1>
+        <button id="theme-toggle">Сменить тему</button>
+    </header>
+
+    <main>
+        <button id="magic-btn">Нажми меня!</button>
+        <p id="message">Тут появится сообщение</p>
+        
+        <div class="time-container">
+            <p>Текущее время:</p>
+            <span id="clock"></span>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Крутой сайт</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
